@@ -1,0 +1,19 @@
+[
+   {
+    "num":11,
+    "a":[
+      {"title":"口碑好物","imgurl":["../img/n1.png","img/n2.png","img/n3.png","img/n4.png","img/n5.png"],"lk":["居家预售","口碑好物","抑菌防螨","秋冬换新","北欧原木"]},
+      {"title":"床上用品","imgurl":["img/n1.png","img/n2.png","img/n6.png","img/n2.png","img/n6.png"],"lk":["床品外套","被枕盖芯","床垫床褥","收纳好物","灯具"]},
+      {"title":"家具家装","imgurl":["img/n1.png","img/n2.png","img/n6.png","img/n6.png","img/n4.png"],"lk":["客餐厅家具","卧室家具","办公书房家具","小件家具","灯具"]}  
+         ]
+    }, 
+
+   {  
+     "num":12,
+       "a":[
+      {"title":"服饰鞋包定金购","imgurl":["../img/n1.png","img/n2.png","img/n3.png","img/n4.png","img/n5.png"],"lk":["居家预售","口碑好物","抑菌防螨","秋冬换新","北欧原木"]},
+      {"title":"男式外套","imgurl":["img/n1.png","img/n2.png","img/n6.png","img/n2.png","img/n6.png"],"lk":["床品外套","被枕盖芯","床垫床褥","收纳好物","灯具"]},
+      {"title":"女式外套","imgurl":["img/n1.png","img/n2.png","img/n6.png","img/n6.png","img/n4.png"],"lk":["客餐厅家具","卧室家具","办公书房家具","小件家具","灯具"]}  
+           ] 
+   }   
+]

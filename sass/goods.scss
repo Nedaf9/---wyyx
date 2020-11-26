@@ -1,0 +1,298 @@
+// 网页内容
+.car{
+  .car-inner{
+    width: 1090px;
+    margin: 0 auto;
+    .coupon{
+       height: 38px;
+       line-height: 38px;
+       margin-top: 10px;
+       margin-bottom: 10px;
+       border: 1px solid #eaeaea;
+       b{
+         i{
+           display: inline-block;
+           background: url(../img/icon3.png) no-repeat;
+           background-position: 0px -105px;
+           width: 28px;
+           height: 20px;
+           vertical-align: middle;
+           margin-left: 12px;
+           margin-right: 16px;
+         }
+       }
+       span{
+         display: block;
+         float: right;
+         height: 38px;
+         width: 88px;
+         background: #e36844;
+         color: #ffffff;
+         text-align: center;
+         em{
+           
+           margin-left: 10px;
+         }
+       }
+    }
+
+    .select{
+      width: 996px;
+      height: 45px;
+      line-height: 45px;
+      padding-left:20px;
+      padding-right: 72px;
+      margin-bottom: 10px;
+      border: 1px solid #eaeaea;
+      input{
+        margin-right: 14px ;
+      }
+      i:nth-child(2){
+        margin-left: 80px;
+        margin-right: 326px;
+      }
+      i:nth-child(4){
+        margin-left: 150px;
+        margin-right: 150px;
+      }
+      i:nth-child(5){
+        margin-right: 45px;
+      }
+    }
+
+    .mark{
+      background: #fffbf0;
+      border: 1px solid #eaeaea;
+      height: 43px;
+      line-height: 43px;
+      padding-left: 60px;
+      span:nth-child(1){
+        font-size: 12px;
+        color: #fff;
+        display: inline-block;
+        width: 58px;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        background: #e36844;
+      }
+      i{
+        color: #666666;
+        margin-left: 10px;
+        margin-right: 20px;
+      }
+      span:nth-child(3){
+        width: 64px;
+        height: 22px;
+        color: #d4282d;
+        border: 1px solid #d4282d;
+        background-color: #fff;
+        margin-right: 20px;
+        cursor: pointer;
+      }
+      a{
+        color: #6699cc;
+      }
+    }
+
+
+    .wares{
+      width: 1040px;
+      border: 1px solid #dddddd;
+      padding: 0px 28px 0px 20px;
+      .mon{
+        position: relative;
+        height: 120px;
+        padding-top: 20px;
+        //line-height: 140px;
+        border-bottom: 1px dashed #eaeaea;
+        input{
+          float: left;
+          margin-top: 42px;
+          margin-right: 20px;
+        }
+        i:nth-child(2){
+          float: left;
+          display: block;
+          background: #f4f4f4;
+          width: 98px;
+          height: 98px;
+          margin-right: 20px;
+          img{
+            width: 98px;
+            height: 98px;
+            vertical-align: 0;
+          }
+        }
+        b{
+          float: left;
+          display: block;
+          height: 36px;
+          line-height: 36px;
+
+        }
+        a:nth-child(4){
+          float: left;
+          display: block;
+          height: 20px;
+          line-height: 20px;
+          position: absolute;
+          top: 50px;
+          left: 150px;
+          color: #999999;
+          i{
+            display: inline-block;
+            margin-left: 10px;
+           background: url(../img/icon4.png) no-repeat;
+           background-position: -1px -670px;
+           width: 10px;
+           height: 7px;
+          }
+        }
+
+        strong:nth-child(5){
+          display: block;
+          float: left;
+          position: absolute;
+          top: 30px;
+          left: 515px;
+        }
+        span{
+          display: block;
+          float: left;
+          position: absolute;
+          top: 25px;
+          left: 670px;
+          width: 106px;
+          height: 24px;
+          border: 1px solid #dddddd;
+          em{
+            display: block;
+            float: left;
+            width: 24px;
+            height: 24px;
+            line-height: 24px;
+            text-align: center;
+            cursor: pointer;
+          }
+          u{
+            display: block;
+            float: left;
+            width: 56px;
+            height: 24px;
+            text-align: center;
+            border-left: 1px solid #dddddd;
+            border-right: 1px solid #dddddd;
+            line-height: 24px;
+          }
+
+        }
+
+        strong:nth-child(7){
+          display: block;
+          float: left;
+          position: absolute;
+          top: 30px;
+          left: 895px;
+          color: #d4282d;
+          font-weight: bold;
+        } 
+        a:nth-child(8){
+          display: block;
+          float: right;
+          color: #666666;
+        }
+         a:nth-child(9){
+          display: block;
+          position: absolute;
+          top: 40px;
+          right: 42px;
+          color: #666666;
+        }
+      }
+    }
+
+    .sum{
+      position: relative;
+      width: 1066px;
+      height: 68px;
+      line-height: 68px;
+      border: 1px solid #dddddd;
+      background: #f5f5f5;
+      padding-left: 22px;
+      margin-top: 10px;
+      b:nth-child(3){
+        margin-left: 40px;
+        margin-right: 30px;
+        cursor: pointer;
+      }
+      b:nth-child(4){
+        cursor: pointer;
+        margin-right: 200px;
+      }
+
+      .sum-inner{
+        width: 165px;
+        display: inline-block;
+        position: relative;
+        color: #999999;
+        span:nth-child(1){
+          line-height: 26px;
+          position: absolute;
+          top: -30px;
+          left: 0px;
+          i{
+            margin-left: 55px;
+          }
+        }
+        span:nth-child(2){
+          line-height: 26px;
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          i{
+            margin-left: 70px;
+          }
+        }
+      }
+      .sum-innerg{
+        margin-left: 60px;
+        width: 165px;
+        display: inline-block;
+        position: relative;
+        color: #000;
+        span:nth-child(1){
+          line-height: 26px;
+          position: absolute;
+          top: -30px;
+          left: 0px;
+          i{
+            
+            color: #be4141;
+            margin-left: 55px;
+          }
+        }
+        span:nth-child(2){
+          color: #be4141;
+          line-height: 26px;
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          i{
+            margin-left: 70px;
+          }
+        }
+      }
+      .order{
+        float: right;
+        width: 140px;
+        height: 69px;
+        line-height: 69px;
+        text-align: center;
+        background: #b4a078;
+        color: #fff;
+        font-size: 16px;
+      }
+    }
+  }
+}

@@ -1,0 +1,133 @@
+.login-pic {
+  height: 600px;
+  background: url(../img/login.jpg) no-repeat;
+  .login {
+    height: 600px;
+    width: 1090px;
+    margin: 0 auto;
+    .login-wrap {
+        position: relative;
+      width: 386px;
+      height: 482px;
+      float: right;
+      background: #ffffff;
+      margin-top: 80px;
+      .login-inner {
+        position: relative;
+        padding: 30px 44px 0 44px;
+        .login-inner-top {
+          font-size: 18px;
+          color: #999;
+          margin-bottom: 50px;
+          span:nth-child(1) {
+            display: block;
+            float: left;
+            width: 89px;
+            padding-left: 66px;
+            height: 20px;
+            border-right: 1px solid #dddddd;
+            cursor: pointer;
+          }
+          span:nth-child(2) {
+            display: block;
+            float: left;
+            padding-left: 80px;
+            width: 52px;
+            height: 20px;
+            cursor: pointer;
+          }
+        }
+        .login-inner-input {
+          text-align: center;
+          position: relative;
+          input {
+            width: 253px;
+            height: 36px;
+            border: 1px solid #e8e8e8;
+            padding-left: 45px;
+            margin-bottom:30px ;
+          }
+          input:nth-child(1) {
+            margin-bottom: 35px;
+          }
+          em {
+            display: inline-block;
+            width: 13px;
+            height: 18px;
+            position: absolute;
+            top: 9px;
+            left: 11px;
+          }
+          
+        }
+        u{
+          display: inline-block;
+          width: 35px;
+          height: 10px;
+        }
+        button {
+          display: inline-block;
+          width: 100px;
+          height: 48px;
+          line-height: 48px;
+          border-radius: 1px;
+          background: #b4a078;
+          color: #ffffff;
+          text-align: center;
+         font-size: 18px;
+          border: 0;
+          cursor: pointer;
+       
+        }
+        .login-inner-text {
+          color: #999;
+          
+            a{
+              color: #000;
+            }
+          
+        }
+      }
+
+      .login-inner-ft{
+          width: 386px;
+          height: 60px;
+          background: #f5f3ef;
+          position: absolute;
+          bottom: 0px;
+          left: 0px;
+          a:nth-child(1){
+            display: inline-block;
+            background: url(../img/icon5.png) no-repeat;
+            background-position: -10px -10px;
+            width: 24px;
+            height: 18px;
+            position: absolute;
+            top: 24px;
+            left: 40px;
+          }
+          a:nth-child(2){
+            display: inline-block;
+            background: url(../img/icon5.png) no-repeat;
+            background-position: -10px -248px;
+            width: 18px;
+            height: 24px;
+            position: absolute;
+            top: 20px;
+            left: 80px;
+          }
+          a:nth-child(3){
+            display: inline-block;
+            background: url(../img/icon5.png) no-repeat;
+            background-position: -10px -129px;
+            width: 24px;
+            height: 19px;
+            position: absolute;
+            top: 24px;
+            left: 112px;
+          }
+          
+      }
+    }
+  }
+}
