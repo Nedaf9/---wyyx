@@ -1,5 +1,4 @@
-//网页宽度
-$w: 1903px;
+
 //网页版心宽度
 $bw: 1348px;
 
@@ -225,19 +224,19 @@ $bw: 1348px;
 
 //banner图
 .wrap {
-  width: 1903px;
+  // width: 1903px;
   height: 419px;
   border-top: 1px solid #e1e1e1;
   // margin: 50px auto 0;
   position: relative;
 }
 .main {
-  width: 1903px;
+  // width: 1903px;
   height: 420px;
   position: relative;
 }
 .main img {
-  width: 1903px;
+  width: 100%;
   height: 420px;
   position: absolute;
   left: 0;
@@ -311,7 +310,7 @@ $bw: 1348px;
 
 //新品区
 .news {
-  width: $w;
+  // width: $w;
   position: relative;
   .news-inner {
     width: 1090px;
@@ -452,7 +451,7 @@ $bw: 1348px;
 
 //人气推荐
 .hot {
-  width: $w;
+  // width: $w;
   height: 716px;
   position: relative;
   background: #f4f0ea;
@@ -600,7 +599,7 @@ $bw: 1348px;
 
 //居家生活
 .home {
-  width: $w;
+  // width: $w;
   position: relative;
   .home-inner {
     margin: auto;
@@ -802,7 +801,7 @@ $bw: 1348px;
 
 //评价
 .appraise {
-  width: 1903px;
+  // width: 1903px;
   height: 599px;
   position: relative;
   padding-top: 60px;
@@ -897,7 +896,7 @@ $bw: 1348px;
 //导航吸顶样式
 .fix{
   margin: 0 auto;
-  width: 1903px;
+   width: 100%;
   height: 50px;
     border-bottom: 1px solid #ececec;
   border-top: 1px solid #ececec;
@@ -912,7 +911,7 @@ $bw: 1348px;
 .fixl{
   position: fixed;
   top: 60px;
-  left: 272px;
+  left: 245px;
   border: 1px solid #e2ded6;
   padding: 11px 15px;
   z-index: 100;
@@ -923,7 +922,7 @@ $bw: 1348px;
 
 //网页底部
 .foot {
-  width: 1903px;
+  // width: 1903px;
   min-width: $bw;
   height: 566px;
   .foot-text {
