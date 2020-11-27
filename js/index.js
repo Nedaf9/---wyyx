@@ -129,7 +129,7 @@ $(function () {
           //  var code = lis.attr('code')
           console.log(code);
           $.each(json, function (index, item) {
-            console.log(item.num);
+            // console.log(item.num);
             if (item.num === code) {
               console.log(1111);
               console.log(item);
@@ -171,6 +171,10 @@ $(function () {
   //获取nav后面的skip元素
   var skip = $(".nav-inner .skip");
 
+//获取用户浏览器的页面宽度
+var width = document.documentElement.clientWidth || document.body.clientWidth;
+console.log(width);
+
   // console.log(ulli);
   //获取menu块到最外层的高度
   var offtop = offset(menu).top;
@@ -182,7 +186,6 @@ $(function () {
       // 	nav.style.top = 0;
       //给导航增加一个属性样式fix
       nav.className = "nav fix";
-
       //最后两个li隐藏
       li1.style.display = "none";
       li2.style.display = "none";
@@ -201,8 +204,8 @@ $(function () {
 
       if (offtop - stop <= 100) {
         menul.className = "fixl smenus";
-      }
-
+      
+ }
       //给左边导航增加一个属性样式fix
     } else {
       // nav.style.position = "static";
@@ -221,6 +224,7 @@ $(function () {
       skip.css("display", "none");
 
       menul.className = "smenu";
+    
     }
   };
 });
